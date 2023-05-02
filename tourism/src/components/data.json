@@ -1,0 +1,44 @@
+[
+    {
+        "Id": "1",
+        "name": "Petra",
+        "Info": "Petra is a must-visit destination for anyone interested in ancient history, architecture, and natural beauty. The city offers a unique and unforgettable experience that is sure to leave a lasting impression on visitors",
+        "Image": "../images/Petra.jfif",
+        "Price": "30"
+    },
+    {
+        "Id": "2",
+        "name": "Aqaba",
+        "Info": "Aqaba is a coastal city located in the southern region of Jordan, and it is a popular tourist destination due to its beautiful beaches, clear waters, and vibrant coral reefs",
+        "Image": "../images/Aqaba.jfif",
+        "Price": "30"
+    },
+    {
+        "Id": "3",
+        "name": "Jerash",
+        "Info": "Jerash is a city located in northern Jordan, approximately 48 kilometers north of the capital city, Amman. It is home to one of the best-preserved Greco-Roman cities in the world, and it is a popular tourist destination in Jordan",
+        "Image": "../images/Jerash.jfif",
+        "Price": "15"
+    },
+    {
+        "Id": "4",
+        "name": "Ajloun",
+        "Info": "Ajloun is a beautiful destination that offers visitors the opportunity to explore Jordan's rich history and natural beauty. The castle, forest reserve, hiking trails, and local cuisine are just some of the many reasons why Ajloun is a must-visit destination for anyone traveling to Jordan.",
+        "Image": "../images/Ajloun.jfif",
+        "Price": "15"
+    },
+    {
+        "Id": "5",
+        "name": "Amman",
+        "Info": " Amman has a wealth of historical and cultural sites to explore, including the Roman Amphitheatre, the Citadel, and the Roman Theatre. These sites provide visitors with a glimpse into the city's ancient past and showcase its architectural and artistic heritage.",
+        "Image": "../images/amman.jfif",
+        "Price": "10"
+    },
+    {
+        "Id": "6",
+        "name": "Zarqa",
+        "Info": "Zarqa is known for its large open-air markets and bazaars, where visitors can shop for a range of goods, including clothes, food, and souvenirs. The Al-Hussein market is one of the most popular markets in Zarqa and is a great place to soak up the local culture, Petra is a UNESCO World Heritage Site and one of the most famous tourist destinations in Jordan. It is an ancient city located in the southwestern region of Jordan.",
+        "Image": "../images/Zarqa.jfif",
+        "Price": "10"
+    }
+]
