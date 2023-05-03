@@ -6,6 +6,23 @@ import "../index.css";
 function CardData() {
   const [CityData, setCityData] = useState(jsonData);
 
+  const [info0, setinfo0] = useState("");
+  const [id0, setid0] = useState("");
+
+ function ShowMore(info,id){
+  console.log(info)
+
+
+  // CityData.filter((element)=>element.Id ==)
+  setinfo0(info)
+  setid0(id)
+
+
+ }
+
+
+
+
   return (
     <div className="cardsContainer">
       {CityData.map((item) => (
@@ -18,13 +35,18 @@ function CardData() {
             <span className="title"> City Name: </span>
             {item.name}
           </p>
-          <p>
-            <span className="title"> Information:</span> {item.Info}
-          </p>
+       
           <p>
             <span className="title"> Price: </span>
             {item.Price}
           </p>
+          <button onClick={()=>ShowMore(item.Info,item.Id)}>More Information</button>
+
+  
+          {  item.Id ==id0  ?  <p>{info0}</p> : <><p>{""}</p></>
+          }
+
+         
         </div>
       ))}
     </div>
